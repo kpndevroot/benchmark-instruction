@@ -17,7 +17,7 @@ bool is_prime(int number) {
 }
 
 int main() {
-    int start=1, end=100000000;
+    int start=1, end=10000000;
     int prime_count = 0;
 
 

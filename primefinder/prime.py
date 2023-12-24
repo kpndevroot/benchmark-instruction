@@ -12,7 +12,7 @@ def is_prime(number):
 
 start = 1
 # end=1000
-end = 100000000
+end = 10000000
 prime_count = 0
 
 start_time = time.time()

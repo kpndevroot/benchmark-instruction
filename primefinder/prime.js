@@ -13,7 +13,7 @@ function isPrime(number) {
 }
 
 const start = 1;
-const end = 100000000;
+const end = 10000000;
 let primeCount = 0;
 
 const startTime = new Date().getTime() / 1000;
