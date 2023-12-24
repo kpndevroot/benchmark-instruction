@@ -21,6 +21,22 @@ Before you begin, make sure you have the following prerequisites:
 - Internet connection
 - Administrative privileges (for Windows)
 
+## run primefinder for all languages
+
+Run the following command to start the Android Studio setup wizard:
+
+1.  add executable permission to run.sh
+
+```bash
+   cd  primefinder && sudo  chomd +x ./run.sh
+```
+
+2.  run the script
+
+```bash
+./run.sh
+```
+
 ## Configuring Android Studio on Linux
 
 1. Download the latest version of Android Studio from the official website.
@@ -63,3 +79,5 @@ Before you begin, make sure you have the following prerequisites:
 That's it! You have successfully configured Android Studio and installed Geekbench on both Linux and Windows.
 
 For more detailed instructions and troubleshooting tips, please refer to the official documentation of Android Studio and Geekbench.
+
+<!-- running instruction for primefinder-->
