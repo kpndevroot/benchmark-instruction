@@ -15,7 +15,7 @@ public class Prime {
     }
 
     public static void main(String[] args) {
-        int start = 1, end = 10000000;
+        int start = 1, end = 100000000;
         int primeCount = 0;
 
         long startTime = System.currentTimeMillis();
