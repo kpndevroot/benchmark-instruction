@@ -35,7 +35,7 @@ public class ParallelPrime {
     }
 
     public static void main(String[] args) {
-        long start = 1, end = 1000000000;
+        long start = 1, end = 100000000;
         int primeCount = 0;
 
         int availableProcessors = Runtime.getRuntime().availableProcessors();
@@ -44,8 +44,8 @@ public class ParallelPrime {
         long startTime = System.currentTimeMillis();
         String result = convertToBillion(end);
 
-        System.out.println("Converted to Billion: " + result);
         System.out.println("Prime numbers in the range " + start + " to " + result + " are:");
+        System.out.println("Total: " + result);
 
         List<Future<Integer>> futures = new ArrayList<>();
 
