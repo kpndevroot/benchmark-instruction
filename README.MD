@@ -28,14 +28,10 @@ Run the following command to start the Android Studio setup wizard:
 1.  add executable permission to run.sh
 
 ```bash
-   cd  primefinder && sudo  chomd +x ./run.sh
+   cd  primefinder
 ```
 
-2.  run the script
-
-```bash
-./run.sh
-```
+2.  run the scripts
 
 ## Configuring Android Studio on Linux
 
