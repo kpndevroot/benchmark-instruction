@@ -1,0 +1,36 @@
+[93m*                              [0m
+[93m* Compiling ParallelPrime.java... *[0m
+[93m*                              [0m
+[92m*                            [0m
+[92m* Running ParallelPrime.java... *[0m
+[92m*                            [0m
+Prime numbers in the range 1 to 100 Million are:
+Total: 100 Million
+Time taken: 161.087 seconds
+Total number of prime numbers in the range: 5761455
+
+real	2m41.226s
+user	12m13.753s
+sys	0m3.674s
+[96m*                                 [0m
+[96m* ---------------------------------- *[0m
+[96m*                                 [0m
+[93m*                          [0m
+[93m* Running ParallelPrime.js... *[0m
+[93m*                          [0m
+total 100.00 million
+Time taken: 73.74300003051758 seconds
+Total number of prime numbers in the range: 5.76 million
+
+real	1m13.805s
+user	6m43.412s
+sys	0m0.843s
+[96m*                                 [0m
+[96m* ---------------------------------- *[0m
+[96m*                                 [0m
+[93m*             [0m
+[93m* Cleaning up... *[0m
+[93m*             [0m
+[92m*                                 [0m
+[92m* All scripts executed successfully! *[0m
+[92m*                                 [0m

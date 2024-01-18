@@ -24,6 +24,13 @@ print_color() {
   esac
 }
 
+# Get current date and time for the result file name
+current_datetime=$(date +"%Y%m%d_%H%M%S")
+result_file="result_${current_datetime}_singlecore.txt"
+
+# Redirect output to both the result file and terminal
+exec > >(tee -a "$result_file") 2>&1
+
 # Compile and run C code
 print_boxed_message yellow "Compiling Prime.c..."
 gcc Prime.c -o Prime_c
