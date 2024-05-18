@@ -44,7 +44,7 @@ function formatNumber(number) {
 
 if (isMainThread) {
   const start = 1;
-  const end = 100000000;
+  const end = 1000000000;
   const numThreads = os.cpus().length;
   console.log(`total ${formatNumber(end)}`);
   const chunkSize = Math.ceil((end - start + 1) / numThreads);

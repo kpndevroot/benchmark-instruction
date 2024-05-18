@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 # Function to print colorful messages with boxing
 print_boxed_message() {

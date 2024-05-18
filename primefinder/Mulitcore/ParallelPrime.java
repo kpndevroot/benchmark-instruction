@@ -35,7 +35,7 @@ public class ParallelPrime {
     }
 
     public static void main(String[] args) {
-        long start = 1, end = 100000000;
+       long start = 1, end = 1000000000;
         int primeCount = 0;
 
         int availableProcessors = Runtime.getRuntime().availableProcessors();
